@@ -1,0 +1,71 @@
+body {
+    font-weight: bold;
+}
+
+.rosa {
+    background-color: #dd767b;
+}
+
+.azul {
+    background-color: #00a7d5;
+}
+
+.naranja {
+    background-color: #f6a000;
+}
+
+.verde {
+    background-color: #60c869;
+}
+
+.rojo {
+    background-color: #ff1e00;
+}
+
+.gris {
+    background-color: #f264ff;
+    width: 100%;
+}
+
+.btn {
+    border-radius: 10px;
+    background-color: #ff1e00;
+}
+
+.caja {
+    padding: 10px;
+}
+
+.bordes-top-caja {
+    border-top-left-radius: 40px 20px;
+    border-top-right-radius: 40px 20px;
+}
+
+.bordes-bot-caja {
+    border-bottom-left-radius: 40px 20px;
+    border-bottom-right-radius: 40px 20px;
+}
+
+a {
+    color: #000;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #ff1e00;
+}
+
+.titulo {
+    font-size: 0.8em;
+}
+
+.opcion {
+    background-color: #ff1e00;
+    color: #fff;
+    font-weight: bold;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+}
