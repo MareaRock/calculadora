@@ -4,27 +4,34 @@ body {
 
 .rosa {
     background-color: #dd767b;
+    position: relative;
+    z-index: -1;
 }
 
 .azul {
     background-color: #00a7d5;
+    position: relative;
+    z-index: -1;
 }
 
 .naranja {
     background-color: #f6a000;
+    position: relative;
+    z-index: -1;
 }
 
 .verde {
     background-color: #60c869;
+    position: relative;
+    z-index: -1;
 }
 
 .rojo {
     background-color: #ff1e00;
 }
 
-.gris {
-    background-color: #f264ff;
-    width: 100%;
+.blanco{
+    background-color: rgba(255, 255, 255, 0.13);
 }
 
 .caja {
@@ -63,4 +70,8 @@ a:hover {
 p {
     padding: 0;
     margin: 0;
+}
+
+.gr-sugerido{
+    width: 200px;
 }
