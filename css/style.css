@@ -74,25 +74,37 @@ p {
 
 /*xs*/
 @media (min-width: 576px) {
-    p, span {
+    p{
         font-size: 1em ;
+    }
+    span {
+        font-size: 0.8em ;
     }
 } 
 /*sm*/
 @media (min-width: 768px) {
-    p, span {
-        font-size: 1em; 
+    p{
+        font-size: 1rem ;
+    }
+    span {
+        font-size: 1em ;
     }
 } 
 /*md*/
 @media (min-width: 992px) {
-    p, span {
-        font-size: 1em;
+    p{
+        font-size: 1em ;
+    }
+    span {
+        font-size: 1em ;
     }
 }
 /*lg*/
 @media (min-width: 1200px) {
-    p, span {
-        font-size: 1em ; 
+    p{
+        font-size: 1.3em ;
+    }
+    span {
+        font-size: 1em ;
     }
 }
