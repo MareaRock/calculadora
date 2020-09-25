@@ -102,7 +102,7 @@ p {
 /*lg*/
 @media (min-width: 1200px) {
     p{
-        font-size: 1.3em ;
+        font-size: 1.2em ;
     }
     span {
         font-size: 1em ;
