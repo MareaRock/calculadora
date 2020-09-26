@@ -34,9 +34,6 @@ body {
     background-color: rgba(255, 255, 255, 0.13);
 }
 
-.caja {
-    padding: 10px;
-}
 
 .bordes-top-caja {
     border-top-left-radius: 40px 20px;
@@ -72,22 +69,51 @@ p {
     margin: 0;
 }
 
+
+
 /*xs*/
-@media (min-width: 576px) {
+@media (min-width: 320px) {
     p{
-        font-size: 1em ;
+        font-size: 0.7em ;
     }
     span {
-        font-size: 0.8em ;
+        font-size: 0.5em ;
     }
+    .caja {
+        padding: 2px;
+    }
+    .balanza{
+        width: 90%;
+    }
+    .titulo{
+        font-size: 0.6em;
+    }
+    .columna-opciones{
+        padding-right: 2px;
+        padding-left: 2px;
+    }
+    
 } 
 /*sm*/
-@media (min-width: 768px) {
+@media (min-width: 576px) {
     p{
         font-size: 1rem ;
     }
     span {
-        font-size: 1em ;
+        font-size: 0.8em ;
+    }
+    .caja {
+        padding: 10px;
+    }
+    .balanza{
+        width: 40%;
+    }
+    .titulo{
+        font-size: 0.8em;
+    }
+    .columna-opciones{
+        padding-right: 15px;
+        padding-left: 15px;
     }
 } 
 /*md*/
