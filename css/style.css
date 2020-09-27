@@ -92,6 +92,10 @@ p {
         padding-right: 2px;
         padding-left: 2px;
     }
+    .reduccion-p{
+        padding-left: 8px;
+        padding-right: 8px;
+    }
     
 } 
 /*sm*/
@@ -115,6 +119,10 @@ p {
         padding-right: 15px;
         padding-left: 15px;
     }
+    .reduccion-p{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
 } 
 /*md*/
 @media (min-width: 992px) {
@@ -133,4 +141,8 @@ p {
     span {
         font-size: 1em ;
     }
+}
+
+.aa{
+    background-color: cadetblue;
 }
