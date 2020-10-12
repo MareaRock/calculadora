@@ -73,7 +73,7 @@ p {
 
 /*xs*/
 @media (min-width: 320px) {
-    p{
+    p,a{
         font-size: 0.7em ;
     }
     span {
@@ -100,7 +100,7 @@ p {
 } 
 /*sm*/
 @media (min-width: 576px) {
-    p{
+    p,a{
         font-size: 1rem ;
     }
     span {
